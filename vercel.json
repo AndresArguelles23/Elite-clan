@@ -1,11 +1,12 @@
 {
   "version": 2,
+  "outputDirectory": "Elite-clan/dist",
   "builds": [
     {
       "src": "Elite-clan/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "Elite-clan/dist"
       }
     }
   ],
