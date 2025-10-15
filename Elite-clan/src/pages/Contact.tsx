@@ -1,7 +1,8 @@
 import { Box, Button, Paper, Stack, TextField, Typography } from '@mui/material';
+import type { FormEvent } from 'react';
 
 export function Contact() {
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     console.log('Booking message:', Object.fromEntries(data.entries()));
