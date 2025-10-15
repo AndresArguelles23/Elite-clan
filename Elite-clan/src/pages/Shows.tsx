@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Chip, Typography } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
+import Grid from '@mui/material/Grid';
 const SHOWS = [
   { date: '2025-11-08', city: 'Barranquilla', venue: 'Teatro ABC', status: 'Boletas' },
   { date: '2025-11-22', city: 'Cartagena', venue: 'Plaza Centro', status: 'Pronto' },
