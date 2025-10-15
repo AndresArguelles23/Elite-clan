@@ -53,7 +53,7 @@ export function MainLayout() {
       </Container>
 
       <Box component="footer" sx={{ py: 4, textAlign: 'center', borderTop: '1px solid', borderColor: 'divider' }}>
-        <Typography variant="body2">© {new Date().getFullYear()} Elite Clan — Todos los derechos reservados.</Typography>
+        <Typography variant="body2">© {new Date().getFullYear()} Elite Klan — Todos los derechos reservados.</Typography>
       </Box>
     </Box>
   );
