@@ -39,7 +39,7 @@ export function MainLayout() {
           <NavLink to="/epk" label="EPK" />
           <NavLink to="/contacto" label="Contacto" />
           <Box sx={{ flexGrow: 1 }} />
-          <IconButton color="inherit" size="small" aria-label="Instagram" href="#" target="_blank" rel="noreferrer">
+          <IconButton color="inherit" size="small" aria-label="Instagram" href="https://www.instagram.com/eliteklan?igsh=MTZjZ3FxNmt4aWtjbg==" target="_blank" rel="noreferrer">
             <InstagramIcon />
           </IconButton>
           <IconButton color="inherit" size="small" aria-label="YouTube" href="#" target="_blank" rel="noreferrer">
