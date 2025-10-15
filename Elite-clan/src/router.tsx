@@ -1,4 +1,5 @@
-import { createBrowserRouter } from 'react-router-dom';
+// src/router.tsx
+import { createHashRouter } from 'react-router-dom';
 import { MainLayout } from './layouts/MainLayout';
 import { Home } from './pages/Home';
 import { Music } from './pages/Music';
@@ -7,7 +8,7 @@ import { Media } from './pages/Media';
 import { Contact } from './pages/Contact';
 import { Epk } from './pages/Epk';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <MainLayout />,
