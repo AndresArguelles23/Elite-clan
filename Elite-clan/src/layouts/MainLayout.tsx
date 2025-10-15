@@ -42,7 +42,7 @@ export function MainLayout() {
           <IconButton color="inherit" size="small" aria-label="Instagram" href="https://www.instagram.com/eliteklan?igsh=MTZjZ3FxNmt4aWtjbg==" target="_blank" rel="noreferrer">
             <InstagramIcon />
           </IconButton>
-          <IconButton color="inherit" size="small" aria-label="YouTube" href="#" target="_blank" rel="noreferrer">
+          <IconButton color="inherit" size="small" aria-label="YouTube" href="https://www.youtube.com/@eliteklan-official/videos" target="_blank" rel="noreferrer">
             <YouTubeIcon />
           </IconButton>
         </Toolbar>
