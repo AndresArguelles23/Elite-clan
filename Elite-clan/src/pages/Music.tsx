@@ -1,5 +1,5 @@
-import { Box, Grid, Paper, Typography } from '@mui/material';
-
+import { Box, Paper, Typography } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
 export function Music() {
   return (
     <Box>

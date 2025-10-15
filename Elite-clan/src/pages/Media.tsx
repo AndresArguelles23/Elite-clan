@@ -1,5 +1,5 @@
-import { Grid, Box, Typography } from '@mui/material';
-
+import { Box, Typography } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
 const PHOTOS = [
   'https://images.unsplash.com/photo-1511379938547-c1f69419868d',
   'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4',
